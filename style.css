@@ -1,0 +1,281 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 20px 40px;
+}
+#mainbox {
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #222;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.sidemenu a:link {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+
+.sidemenu a:visited {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+.sidemenu a:hover{
+      color: white;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+.sidemenu a .current {
+    color: white;
+    text-decoration: underline;
+}
+
+p.div {
+  font-family: georgia;
+  font-size: 100%;
+  color: #d10009;
+  font-weight: normal;
+}
+
+h3.div {
+  font-family: georgia;
+  font-size: 150%;
+  color: #d10009;
+  text-align: center;
+}
+
+h4.div {
+  font-family: georgia;
+  font-size: 110%;
+  color: #d10009;
+  text-align: center;
+}
+
+h5.div {
+    font-family: georgia;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #d10009;
+}
+
+h1 {
+    text-align: center;
+    font-family: georgia;
+    font-size: 300%;
+    color: #ae0700;
+}
+
+h2 {
+    text-align: center;
+    font-family: georga;
+    font-size: 200%;
+    color: #ff4055;
+}
+
+h3 {
+    text-align: center;
+    font-family: georgia;
+    font-size: 150%;
+    color: #ff808a;
+}
+
+p {
+    font-family: georgia;
+    font-size: 100%; 
+    color: #09007d;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block; 
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #ae0700;
+    color: white;
+}
+
+li a.inactive {
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+li a:focus:not(.active) {
+    background-color: #555;
+    color:white;
+}
+    
+.buttonDiv { 
+    border: 2px solid #d10009;
+    padding: 15px 32px;
+    background-color: white;
+    text-align: center;
+    font-family: georgia;
+    border-radius: 12px;
+}
+
+.button {
+    transition-duration: 0.4s;
+    border: 2px solid #d10009;
+    padding: 15px 32px;
+    background-color: white;
+    text-align: center;
+    font-family: georgia;
+    border-radius: 12px;
+}
+    
+.button:hover {
+    background-color: #d10009;
+    color: white;
+}
+
+.button:focus {
+    background-color: #d10009;
+    color: white;
+    outline: none;
+}
+    
+.normal {
+    
+    height: 80%;
+}
+
+.normalCenter {
+    
+    height: 80%;
+    text-align: center;
+}
+       
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #d10009;
+}
+
+#myDIV2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #d10009;
+}
+
+#myDIV3 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #d10009;
+}
+
+.box {
+    width: 100%;
+    padding: 50px 0;
+    text-align: left;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #d10009;
+}
+
+a:link {
+    color: #ff0a00;
+}
+
+a:visited {
+    color: #b30700;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #09007d;
+}
+
+.responsive {
+    width: 75%;
+    height: auto;
+}
+
+.left {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.right {
+    width: 30%;
+    height: auto;
+    float: right;
+}
+
+.footer {
+   width: 100%;
+   background-color: #ae0700;
+   color: white;
+   text-align: center;
+   height: 20%;
+}
+
+ol {
+    font-family: georgia;
+    font-size: 100%; 
+    color: #09007d;
+}
+
+ol.div {
+  font-family: georgia;
+  font-size: 100%;
+  color: #d10009;
+}

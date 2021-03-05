@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BPA Main Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+
+</head>
+<body onload="mobileTest();">
+  <div><button id="mainbox" class="button" onclick="openFunction()">&#9776; Open</button></div>
+  <div id="menu" class="sidemenu">
+    <a href="index.html">Home</a>
+    <a href="ChapterGuidelines.html">Chapter Guidelines</a>
+    <a href="Hotels.html">Location</a>
+    <a href="worksCited.html">External Links</a>
+  </div>
+
+<!--
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a class="inactive" href="ChapterGuidelines.html">Chapter Guidelines</a></li>
+    <li><a class="inactive" href="Hotels.html">Hotels</a></li>
+    <li><a class="inactive" href="worksCited.html">External Links</a></li>
+  </ul>
+-->
+
+<div class="normalCenter">         
+<h1>NLC Orlando Florida</h1>
+<img src="src/BPA2021Slogan.png" alt="2021 Slogan: Envision, Empower, Ignite" align="center" width=25% height="auto">
+<p>This website serves the purpose of aiding BPA Chapters in planning their trip to the BPA Narional Leadership Conference, which takes place on May 4th-8th, 2021. This event is located in the Walt Disney World Swan and Dolphin Hotels in Orlando, Florida. Such a large trip takes much planning, and this website has useful information conveniently in one place.</p>
+</div>
+  
+ <div class="footer">
+  <p style="font-family:Century Gothic;color:white;">Team Number : 435-S-0221 - Clay High School - Oregon Ohio - 2021</p>
+  <p style="font-family:Century Gothic;color:white;">Lilibeth Clark - Jamaal Mclaughlin - Madison Campbell</p>
+</div>
+  
+  <script>
+    function mobileTest() {
+      var x = window.innerWidth;
+      var y = window.innerHeight;
+    if (x < y){
+    window.location.href = "https://www.w3schools.com/html/html_tables.asp";
+      }
+    }
+  </script>
+</body>
+</html>
